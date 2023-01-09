@@ -1,0 +1,54 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Orbitron';
+}
+a{
+    text-decoration: none;
+    color: crimson;
+}
+a:hover{
+    color:blueviolet;
+    transition:0.3s ease-in-out;
+}
+.by ,
+a{
+        font-family: 'Poppins', sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+    object-fit: cover;
+    background-image: url(../img/zac-ong-JHN1-mpgXjo-unsplash.jpg);
+    display: grid;
+    place-items: center;
+}
+.line ,
+span{
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    color:#fff;
+}
+.wrapper{
+    z-index: 100;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-bottom: 200px;
+    color:#fff;
+    font-size:48px;
+}
+
+.hours ,
+.minut,
+.sekunt{
+    color:#fff;
+    font-size:48px;
+}
